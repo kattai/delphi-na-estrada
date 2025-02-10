@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/delphi-na-estrada/precache-manifest.c3898fc6af3d90360bb03a76efed3f71.js"
+  "/delphi-na-estrada/precache-manifest.af102ea64405680b6207ffc9de0e7425.js"
 );
 
 self.addEventListener('message', (event) => {
