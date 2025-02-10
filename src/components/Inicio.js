@@ -6,6 +6,10 @@ import 'animate.css';
 const Home = () => {
   return (
     <section className='introduction'>
+        <div className='animate__animated animate__fadeInUp sponsors'>
+          <img src="tms.png" alt="tms logo" />
+          <img src="fastrpt.svg" alt="fastreport logo" />
+        </div>
         <img className='animate__animated animate__fadeInUp logo' src="logo-gdk.svg" alt="gdk logo" />
         <div className="content">
         <h1 className='animate__animated animate__fadeInUp'>DELPHI NA ESTRADA</h1>

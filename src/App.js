@@ -2,7 +2,7 @@ import React from 'react';
 import Inicio from './components/Inicio';
 import Agenda from './components/Agenda';
 import Locais from './components/Locais';
-import PqParticipar from './components/PqParticipar';
+import Participe from './components/Participe';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
 
@@ -10,7 +10,7 @@ const App = () => {
   return (
       <div className='App'>
         <Inicio/>
-        <PqParticipar/>
+        <Participe/>
         <Agenda/>
         <Locais/>
         <FAQ/>

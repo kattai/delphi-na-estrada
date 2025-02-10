@@ -1,5 +1,5 @@
 .introduction {
-  background-image: url('../../../public/endless-road.jpg');
+  background-image: url('/endless-road.jpg');
   background-size: cover; 
   background-position: center;
   width: 100%;
@@ -21,6 +21,19 @@
   height: 100%;
   background-color: rgba(0, 1, 5, 0.8);
   z-index: 1;
+}
+
+.sponsors{
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  height: 70px;
+}
+
+.sponsors img{
+  width: 60%;
 }
 
 .content{
@@ -75,9 +88,6 @@
 }
 
 @media (max-width: 768px) {
-  .introduction {
-    height: 600px;
-  }
 
   .content h1 {
     font-size: 3rem;
@@ -94,9 +104,6 @@
 }
 
 @media (max-width: 480px) {
-  .introduction {
-    height: 400px;
-  }
 
   .content h1 {
     font-size: 2.5rem;
