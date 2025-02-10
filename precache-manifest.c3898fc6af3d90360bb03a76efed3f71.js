@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3a5746c94d72ff4ddc34fc87860d48bc",
+    "revision": "0a0f2419421452c5d756dd70cb6f578b",
     "url": "/delphi-na-estrada/index.html"
   },
   {
@@ -8,15 +8,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/delphi-na-estrada/static/css/2.c98225b9.chunk.css"
   },
   {
-    "revision": "75c5a3ff53a9da943b24",
-    "url": "/delphi-na-estrada/static/css/main.cedcabe1.chunk.css"
+    "revision": "68b24d6dd794ecd53467",
+    "url": "/delphi-na-estrada/static/css/main.e40000b4.chunk.css"
   },
   {
     "revision": "33beac73fc3178c6761a",
     "url": "/delphi-na-estrada/static/js/2.b0e6c5b2.chunk.js"
   },
   {
-    "revision": "75c5a3ff53a9da943b24",
+    "revision": "68b24d6dd794ecd53467",
     "url": "/delphi-na-estrada/static/js/main.cc12e624.chunk.js"
   },
   {
