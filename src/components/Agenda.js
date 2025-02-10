@@ -1,6 +1,9 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faClock, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import '../App.css';
 import './styles/Agenda.css';
+import 'animate.css';
 
 const Agenda = () => {
   return (
@@ -8,65 +11,21 @@ const Agenda = () => {
       <div className='container-agenda'>
         <div className='agenda-content'>
           <h2>
-            <span className='small-title'>CONFIRA A AGENDA DO EVENTO!</span>
+            <span className='animate__animated animate__fadeInUp small-title'>CONFIRA A AGENDA DO EVENTO!</span>
             <br/>
-            Uma tarde com <span className='highlight-text'>muito conteúdo!</span>
+            Uma tarde com <span className='animate__animated animate__fadeInUp highlight-text'>muito conteúdo!</span>
           </h2>
-          <ul className='agenda-list'>
-            <li>
-              <span className='highlight-text'>12:00PM </span> 
-              to 
-              <span className='highlight-text'> 01:00PM </span>
-               – Credenciamento</li>
-            <li>
-              <span className='highlight-text'>01:00PM </span>
-               to 
-              <span className='highlight-text'> 01:30PM </span>
-                – Abertura do evento
-            </li>
-            <li>
-              <span className='highlight-text'>01:30PM </span>
-              to 
-              <span className='highlight-text'> 02:10PM </span>
-               – TMS or FastReport or GDK
-            </li>
-            <li>
-              <span className='highlight-text'>02:20PM </span>
-                to 
-              <span className='highlight-text'> 03:00PM</span>
-               – TMS or FastReport or GDK
-            </li>
-            <li>
-              <span className='highlight-text'>03:00PM </span>
-              to 
-              <span className='highlight-text'> 03:30PM </span>
-               – Coffee break – Time to talk with customers prospects
-            </li>
-            <li>
-              <span className='highlight-text'>03:40PM </span>
-              to 
-              <span className='highlight-text'> 04:20PM </span>
-              – TMS or FastReport or GDK
-            </li>
-            <li>
-              <span className='highlight-text'>04:30PM </span>
-              to
-              <span className='highlight-text'> 05:10PM </span>
-              – MVPs who will help us with the location asked for an opportunity
-            </li>
-            <li>
-              <span className='highlight-text'>05:10PM </span>
-              to 
-              <span className='highlight-text'> 05:30PM </span>
-              – Reservado para atrasos
-            </li>
-            <li>
-              <span className='highlight-text'>05:10PM </span>
-                to
-              <span className='highlight-text'> 06:00PM </span>
-                – Encerramento
-            </li>
-          </ul>
+          <div className="agenda-item-container">
+            <p className='agenda-item'><span className='badge-gdk'> <FontAwesomeIcon icon={faClock}/> 12:00PM - 01:00PM <FontAwesomeIcon icon={faArrowRight}/> Credenciamento</span></p>
+            <p className='agenda-item'><span className='badge-gdk'> <FontAwesomeIcon icon={faClock}/> 01:00PM - 01:30PM <FontAwesomeIcon icon={faArrowRight}/> Abertura do evento</span></p>
+            <p className='agenda-item'><span className='badge-gdk'> <FontAwesomeIcon icon={faClock}/> 01:30PM - 02:10PM <FontAwesomeIcon icon={faArrowRight}/> TMS - FastReport - GDK</span></p>
+            <p className='agenda-item'><span className='badge-gdk'> <FontAwesomeIcon icon={faClock}/> 02:20PM - 03:00PM <FontAwesomeIcon icon={faArrowRight}/> TMS - FastReport - GDK</span></p>
+            <p className='agenda-item'><span className='badge-gdk'> <FontAwesomeIcon icon={faClock}/> 03:00PM - 03:30PM <FontAwesomeIcon icon={faArrowRight}/> Coffee break</span></p>
+            <p className='agenda-item'><span className='badge-gdk'> <FontAwesomeIcon icon={faClock}/> 03:40PM - 04:20PM <FontAwesomeIcon icon={faArrowRight}/> TMS - FastReport - GDK</span></p>
+            <p className='agenda-item'><span className='badge-gdk'> <FontAwesomeIcon icon={faClock}/> 04:30PM - 05:10PM <FontAwesomeIcon icon={faArrowRight}/> Momento dos MVPs</span></p>
+            <p className='agenda-item'><span className='badge-gdk'> <FontAwesomeIcon icon={faClock}/> 05:10PM - 05:30PM <FontAwesomeIcon icon={faArrowRight}/> Reservado para atrasos</span></p>
+            <p className='agenda-item'><span className='badge-gdk'> <FontAwesomeIcon icon={faClock}/> 05:10PM - 05:30PM <FontAwesomeIcon icon={faArrowRight}/> Encerramento</span></p>
+          </div>
         </div>
       </div>
     </section>

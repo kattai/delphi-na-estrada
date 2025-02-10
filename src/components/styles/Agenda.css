@@ -3,102 +3,60 @@
 }
 
 .container-agenda{
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #1c1b20 40%), 
-  url('../../../public/programming-language-delphi.webp');
-  background-size: contain; 
-  background-position: left;
-  background-repeat: no-repeat;
   width: 100%;
-  height: 700px;
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+  background-color: #1c1b20;
 }
 
 .agenda-content{
-  width: 80%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-end;
-  height: 700px;
-  padding-top:50px;
-  padding-right: 50px;
+  justify-content: center;
+  align-items: center;
+  height: auto;
 }
 
 .agenda-content h2 {
-  font-size: 2.7rem;
+  text-align: center;
+  font-size: 2.9rem;
   padding: 10px;
   text-transform: uppercase;
   color: #fff;
   margin: 0;
 }
 
-.agenda-list {
-  list-style-type:none;
-  padding: 0;
-  margin: 50px 0 0 0;
+.agenda-item-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+}
+
+.agenda-item{
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 10px;
+  text-transform: uppercase;
   color: #fff;
-  font-size: 1.14rem;
 }
 
-.agenda-list li {
-  text-align: left;
-  margin-bottom: 10px;
-  position: relative;
-  padding-left: 20px;
-}
-
-.agenda-list li::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 10px;
-  height: 10px;
-  background-color: #1f4a7b; /* Cor verde para os círculos */
-  border-radius: 50%;
-}
-
-.small-title{
+.badge-gdk{
   font-weight: 500;
-  font-size: 1.5rem;
-  letter-spacing: 9.18px;
-  color: #1f4a7b;
-}
-@media (max-width: 1345px) {
-  .container {
-    height: 800px;
-    flex-direction: column;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #1c1b20 100%), 
-                url('../../../public/programming-language-delphi.webp');
-    background-size: cover; 
-    background-position: center;
-  }
-  .agenda-content{
-    display: flex;
-    flex-direction: column;
-  }
+  border-radius: 6px;
+  height: 60px;
+  padding: 10px;
+  color: #fff;
+  background-color: #1f4a7b;
+  margin-left: 10px;
+  text-align: center;
 }
 
-@media (max-width: 768px) {
-  .container {
-    height: auto;
-    flex-direction: column;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #1c1b20 100%), 
-                url('../../../public/programming-language-delphi.webp');
-    background-size: cover; 
-    background-position: center;
+@media (max-width: 906px) {
+  .agenda-item{
+    font-size: 1rem;  
   }
-
-  .agenda-content {
-    height: auto;
-    padding: 20px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  .badge-gdk {
+    width: 120px;
   }
 
   .agenda-content h2 {
@@ -106,9 +64,13 @@
   }
 }
 
-@media (max-width: 480px) {
-  .container {
-    height: auto;
+@media (max-width: 774px) {
+  .agenda-item{
+    font-size: 0.8rem;
+  }
+  .badge-gdk {
+    width: 100px;
+    height: 40px;
   }
 
   .agenda-content h2 {

@@ -9,6 +9,34 @@ html {
   color: #32CD32;
 }
 
+.small-title{
+  font-weight: 500;
+  font-size: 1.5rem;
+  letter-spacing: 9.18px;
+  color: #1f4a7b;
+}
+
+.small-title-2{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #629e4a;
+  letter-spacing: 9.18px;
+  font-size: 1.5rem;
+}
+
+.title-2{
+  color: #1f4a7b;
+}
+
+.text{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #629e4a;
+  font-size: 1.5rem;
+}
+
 body {
   font-family: "Inter", serif;
   margin: 0;
