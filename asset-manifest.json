@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/delphi-na-estrada/static/css/main.92dc1197.chunk.css",
+    "main.css": "/delphi-na-estrada/static/css/main.68fab903.chunk.css",
     "main.js": "/delphi-na-estrada/static/js/main.cc12e624.chunk.js",
     "main.js.map": "/delphi-na-estrada/static/js/main.cc12e624.chunk.js.map",
     "runtime~main.js": "/delphi-na-estrada/static/js/runtime~main.6a183f08.js",
@@ -9,9 +9,9 @@
     "static/js/2.b0e6c5b2.chunk.js": "/delphi-na-estrada/static/js/2.b0e6c5b2.chunk.js",
     "static/js/2.b0e6c5b2.chunk.js.map": "/delphi-na-estrada/static/js/2.b0e6c5b2.chunk.js.map",
     "index.html": "/delphi-na-estrada/index.html",
-    "precache-manifest.681ab21333eb52b326a33f15b7326fe5.js": "/delphi-na-estrada/precache-manifest.681ab21333eb52b326a33f15b7326fe5.js",
+    "precache-manifest.ae094f29f0fe7bcf2fa292479ce0cf24.js": "/delphi-na-estrada/precache-manifest.ae094f29f0fe7bcf2fa292479ce0cf24.js",
     "service-worker.js": "/delphi-na-estrada/service-worker.js",
     "static/css/2.c98225b9.chunk.css.map": "/delphi-na-estrada/static/css/2.c98225b9.chunk.css.map",
-    "static/css/main.92dc1197.chunk.css.map": "/delphi-na-estrada/static/css/main.92dc1197.chunk.css.map"
+    "static/css/main.68fab903.chunk.css.map": "/delphi-na-estrada/static/css/main.68fab903.chunk.css.map"
   }
 }
