@@ -9,7 +9,7 @@ const Participe = () => {
         <h2>
         <span className='animate__animated animate__fadeInUp small-title'>Um evento imperdível!</span>
         <br/>
-        Atualize seus <span className='highlight-text'>conhecimentos</span> de forma <span className='highlight-text'>gratuita!</span>
+        Atualize seus conhecimentos de forma <span className='highlight-text'>gratuita!</span>
         </h2>
         <div className="participe-content">
           <div className="card-content">

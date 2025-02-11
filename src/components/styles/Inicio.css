@@ -27,13 +27,14 @@
   z-index: 2;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 40px;
+  justify-content: space-around;
+  gap: 10px;
   height: 70px;
+  padding-bottom: 25px;
 }
 
 .sponsors img{
-  width: 60%;
+  width: 40%;
 }
 
 .content{
@@ -64,13 +65,13 @@
 }
 
 .content .participe-btn{
-  width: 400px;
+  width: 380px;
   height: 60px;
   border: none;
   cursor: pointer;
   background-color: #32CD32 ;
   font-weight: 500;
-  color: #17375c;
+  color: #000;
   border-radius: 4px;
   font-size:1.3rem;
   padding: 10px;
@@ -80,11 +81,17 @@
 
 .content .participe-btn:hover{
   background-color: #fff;
-  transform: scale(1.1);
+  transform: scale(1.0);
 }
 
 .content .btn-text{
   color:#32CD32;
+}
+
+@media (max-width: 920px) {
+  .logo{
+    width: 90%;
+  }  
 }
 
 @media (max-width: 768px) {
